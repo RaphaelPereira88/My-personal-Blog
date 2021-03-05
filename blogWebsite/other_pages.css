@@ -1,0 +1,55 @@
+@import url(navbar.css);
+@import url(form.css);
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+p{
+   font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px; 
+}
+
+
+img{
+     max-width:  100%;
+}   
+
+
+.make_grid{
+    display: flex;
+    width: 100%;
+}
+
+
+.content{
+    width: 80%;
+    height: auto;
+}
+
+
+.stats{
+    margin: 10%;
+    padding: 10px;
+    text-align: center;
+    height: 180px;
+    width: 50%;
+    border-radius: 30px;
+    border: 2px solid black;   
+}
+
+
+.article{
+    margin-top: 100px;
+}
+
+
+footer{
+    position: bottom;
+    background-color:rgb(187, 183, 183);
+    height: 50px;
+    text-align: center;
+}
