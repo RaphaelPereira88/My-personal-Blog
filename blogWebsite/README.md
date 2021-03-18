@@ -10,7 +10,7 @@ You will be building a multi-section landing page. Often times, we don’t know 
 
 Interface and Architecture
 
-## CRITERIA# #
+## CRITERIA ##
 MEETS SPECIFICATIONS
 ### Architecture ###
 
