@@ -11,11 +11,11 @@ This project aims to give you real-world scenarios of manipulating the DOM. The 
   * the home page or if you are at the bottom of the page by clicking on it it will bring you back to the top page
   * a news website
   * a form to sign up 
-1.
+
 2.the second navigation bar will help you go through each sections of the home page. 
   * By clicking on each section of the nav bar, you will get the home page scrolling down smoothly up to the section selected.
   * you will have a green color on the section selected on the nav bar . THis green color will switch by itself according to the section you will scroll to (works as a bookmark)
-2. 
+
 3. In the Bikes sections you can click on the pictures and links to be redirected others page like racebike.html,nakedbike.html, etc...  
 
 
