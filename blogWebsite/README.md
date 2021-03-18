@@ -12,7 +12,7 @@ This project aims to give you real-world scenarios of manipulating the DOM. The 
   * a news website
   * a form to sign up 
 
-2.the second navigation bar will help you go through each sections of the home page. 
+2. The second navigation bar will help you go through each sections of the home page. 
   * By clicking on each section of the nav bar, you will get the home page scrolling down smoothly up to the section selected.
   * you will have a green color on the section selected on the nav bar . THis green color will switch by itself according to the section you will scroll to (works as a bookmark)
 
