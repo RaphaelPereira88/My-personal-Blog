@@ -1,4 +1,4 @@
-##Landing Page porject:##
+## Landing Page porject: ##
 
 The landing page presents the first opportunity to fully combine your skills in HTML, CSS, and JavaScript into a large project. Aside from solidifying your skills with these three technologies, you’ll discover how best to combine them in a complex application.
 
@@ -10,9 +10,9 @@ You will be building a multi-section landing page. Often times, we don’t know 
 
 Interface and Architecture
 
-##CRITERIA##
+## CRITERIA# #
 MEETS SPECIFICATIONS
-###Architecture###
+### Architecture ###
 
 The project should have a structure like the one shown below. All files shown must be present and the app must successfully render a home page with clear design and functionality added when index.html is loaded in the browser. No errors should display in console.
 
@@ -24,7 +24,7 @@ js
 README.md
 Usability
 
-###All features are usable across modern desktop, tablet, and phone browsers.###
+### All features are usable across modern desktop, tablet, and phone browsers. ###
 
 Styling
 
