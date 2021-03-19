@@ -1,0 +1,103 @@
+.topbar {
+    box-sizing: content-box;
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+    background-image: linear-gradient(300deg, #2b3033 0%, #a6a6aa 100%);
+    position: relative;
+}
+
+
+
+.topbar li {
+    float: left;
+}
+
+
+.topbar a {
+    display: flex;
+    color: rgb(7, 6, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/*second nav-bar of the home page*/
+
+  
+.topbar2 {
+    box-sizing: content-box;
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+    background-image: linear-gradient(300deg, #a6a6aa 0%, #2b3033 100%);
+    background-blend-mode: lighten;
+    position: relative;
+    list-style-type:none;
+}
+  
+.topbar2 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topbar2 a:hover {
+    background-color: #ddd;
+}
+
+  
+.topbar2 .icon {
+    display: none;
+    color:white;
+    margin:2px;
+    padding:2px
+}
+
+/* to get the second nav responsive, for mobile phones ,tablets etc..*/
+@media screen and (max-width: 800px) {
+    .topbar2 a {
+        display: none;
+    }
+    .topbar2 .icon {
+        float: left;
+        display:block;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .topbar2.active {position: absolute;}
+    .topbar2.active .icon {
+        position: left;
+        right: 0;
+        top: 0;
+    }
+    .topbar2.active a {
+        float:left;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* change color when class change to activated*/
+a.activated{
+    background-color:green;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+    background-color: rgb(112, 112, 111);
+    color: white;
+}
+
+

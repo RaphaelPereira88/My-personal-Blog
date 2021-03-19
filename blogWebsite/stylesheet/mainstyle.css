@@ -1,0 +1,230 @@
+
+@import url(form.css);
+@import url(navbar.css);
+@import url(footer.css);
+
+
+
+body{
+    margin:0px;
+    position: relative;
+}
+
+header{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    width:100%;
+    height:10%;
+    margin:0px;
+    padding:0px;
+}
+
+
+section{
+    padding-top:80px;
+    width:100%;
+    padding-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    width:100%;
+    text-align: center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    color:rgb(5, 5, 5) 
+}
+
+
+
+.home{
+    background-image: url("https://i.pinimg.com/originals/58/d3/41/58d341d081f3de12e30b94eb3fb5a639.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    text-align: center;
+    width:100%;
+    height:1000px;
+}
+
+.home p{
+    padding:100px;
+    font-size:2em;
+}
+
+section p{
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    padding: 5px;
+    text-align:left;
+    margin:auto;
+}
+
+
+
+/* bikes section*/
+
+section.Bikes{
+    background-image: url('../pictures/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+
+.box1{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.box1 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+h3{
+    text-align:center;
+}
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin-top:5%;
+    background-color:#ddd;
+    border-radius: 25px;
+    width: 350px;
+    padding-bottom: 5px;
+    height: 100%;
+}
+
+#button{
+    background-color: #4CAF50;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 5px;
+    margin:auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* Riders section*/
+section.Riders{
+    background-image: url("https://www.pixelbandits.org/wp-content/uploads/2020/04/Xbox-MotoGP-20-27.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    width:100%;
+    height:100%;
+}
+
+
+/* Riders Tracks*/
+section.Tracks{
+    background-image: url("https://img.redbull.com/images/q_auto,f_auto/redbullcom/2017/07/01/2e651fe0-2689-433e-b7a5-dcd38dbda6d1/motogp-riders-in-action-at-the-circuit-of-the-americas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width:100%;
+    height:100%;
+
+}
+
+
+/*Pictures section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 2fr;
+    width:70%;
+    gap:5%;
+    height:60%;
+    margin: auto;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.grid-item{
+    width:100%;
+    height:100%
+}
+
+.grid-item img{
+    border: 0.2px solid #ccc;
+    box-shadow: 5px 5px 100px rgb(92, 91, 91);
+    width: 100%;
+    height: 100%;
+}
+
+.container_form_box{
+    box-sizing: border-box;
+    margin:auto;
+    width:80%;
+    height:500px;
+}
+
+
+/* Riders Register*/
+section.Register{
+    background-color: rgba(8, 8, 8, 0.3);
+    width:100%;
+    width: 100%;
+}
+
+/* contact page: grid */
+.grid-container1 {
+    margin:auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto ; 
+    margin-top:0.5%;
+    width:100%;
+    height:100%;
+    padding:40px;
+}
+
+
+.grid-item2 img{
+    width: 80%;
+    height:100%
+}
+
+.grid-item2{
+    margin:auto;
+    width: 50%;
+}
+
+
+@media screen and (min-width: 601px) {
+    h1 {
+      font-size: 2.5em;;
+    }
+    #button{
+        font-size: 1em;
+
+    }
+    strong{
+        font-size: 1em;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1em;
+    }
+    #button{
+        font-size: 0.5em;
+
+    }
+    strong{
+        font-size: 0.7em;
+    }
+}
