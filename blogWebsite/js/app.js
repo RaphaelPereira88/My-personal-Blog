@@ -21,7 +21,7 @@ const create_nav = (sections)=> {
         aElement.style.setProperty('cursor', 'pointer');
         liElement.appendChild(aElement);
         nav.appendChild(liElement);
-/*need to create an array to be able to export those datas in the Add clactive below !!*/
+/*need to create an object to be able to export those datas in the active function  below !!*/
         const navBarItem = {
             element: aElement,
             Section: section
